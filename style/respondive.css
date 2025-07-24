@@ -221,6 +221,99 @@
     /* font-weight: 400px; */
     font-size: 22px;
 }
+  /* image section start here */
+  .img-main-container{
+    /* border: 2px solid tomato; */
+    width: 1140px;
+    height: 425px;
+    margin-top: 125px;
+    margin-left: 125px;
+    display: flex;
+    gap: 28px;
+    
+  }
+  .left-img{
+     /* border: 2px solid tomato; */
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+  }
+  .left-img-1{
+    /* border: 2px solid tomato; */
+    background-image: url('../image/deal-ana.png');
+    width: 370px;
+    height: 200px;
+    border-radius: 14px;
+    background-color:rgb(200, 200, 200);
+    
+  }
+  .left-img-1 h3{
+    font-weight: 700px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+     text-align: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .left-img-1 a{
+    font-weight: 600px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-left: 150px;
+
+  }
+
+  .left-img-2{
+     /* border: 2px solid tomato; */
+     background-image: url('../image/deal-bloom.png');
+     width: 370px;
+     height: 200px;
+    border-radius: 14px;
+     background-color: rgb(200, 200, 200);
+     
+  }
+   .left-img-2 h3{
+    font-weight: 700px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+     text-align: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .left-img-2 a{
+    font-weight: 600px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-left: 150px;
+
+  }
+
+.right-img{
+     /* border: 2px solid tomato; */
+   background-image: url('../image/deal-zabo.png');
+    width: 750px;
+    height: 420px;
+    border-radius: 14px;
+    background-color: rgb(200, 200, 200);
+    
+}
+.right-img h3{
+    font-weight: 700px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+     text-align: center;
+    align-items: center;
+    margin-top: 150px;
+  }
+  .right-img a{
+    font-weight: 600px;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    margin-left: 300px;
+   
+
+  }
+
 /*join-section star here */
 .join-section{
     /* border: 2px solid teal; */
