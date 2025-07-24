@@ -1,6 +1,13 @@
 /* added font link */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* *{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+
+} */
+
 .noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -11,23 +18,23 @@
 }
 
 
-/* start navber sectin */
+/* start navber section */
 .navbar{
     border: 1px solid tomato;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1300px;
-    height: 71px;
+   max-width: 1140px;
+    height: auto;
     margin-top: 30px;
     margin-left: 150px;
 } 
 .unlist-item{
     display: flex;
     list-style: none;
-    gap: 48px;
-    margin-left: 725px;
-    width: 415px;
+    gap: 70px;
+    margin-left: 445px;
+    /* width: 350px; */
     padding: 22px;
 }
 .list-item-home{
@@ -39,4 +46,43 @@
 }
 .list-item-cart{
     color:#000000 ;
+}
+/* start banner */
+.banner-container{
+    border: 2px solid tomato;
+    display: flex;
+    justify-content:  center;
+    max-width: 1140px;
+    height: auto;
+    margin-top: 221px;
+    margin-left: 150px;
+    gap: 30px;
+    background-color: #FFFFFF;
+
+}
+.banner-left{
+    width: 570px;
+    height: auto;
+    margin-top: 50px;
+    
+}
+.banner-left h1{
+    font-weight: bold;
+    font-size: 65px;
+}
+.banner-left-span{
+    color: rgb(233, 90, 8);
+}
+.banner-left p{
+     color: #8987A1;
+     font-weight: 400;
+     font-size: 22px;
+     
+
+}
+.banner-right{
+    width: 570px;
+    height: auto;
+    margin-top: 100px;
+
 }
