@@ -158,3 +158,37 @@
     border: none;
     border-radius: 5px;
  }
+  /* Plants Lover Section */
+.Plants-Lover-Section{
+    display: flex;
+    /* justify-content:center; */
+    /* text-align: center; */
+    border: 2px solid tan;
+    width: 1140px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 125px;
+    /* gap: 60px; */
+}
+.plant-img-left{
+    width: 540px;
+    height: 600px;
+}
+.plant-text-right{
+    width: 540px;
+    height: 520px;
+    margin-left: 110px;
+}
+.plant-text-right h1{
+   font-weight: 700;
+   font-size: 50px;
+
+}
+.plant-text-right ul li{
+    font-weight: 400;
+    font-size: 22px;
+    color: #8987A1;
+   
+
+
+}
