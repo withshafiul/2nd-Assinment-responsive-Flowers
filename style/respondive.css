@@ -188,7 +188,35 @@
     font-weight: 400;
     font-size: 22px;
     color: #8987A1;
-   
 
+}
+/* title section here  */
+.title-container{
+    border: 2px solid turquoise;
+    width: 1140px;
+    height: 137px;
+    margin-left: 150px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
+}
+.title-container span{
+    color: rgb(233, 90, 8);
+
+}
+.title-container h1{
+    border: 2px solid tan;
+    height: 68px;
+    /* font-weight: 700px; */
+    font-size: 50px;
+}
+.title-container p{
+    border: 2px solid teal;
+    color: #8987A1;
+    height: 53px;
+    /* font-weight: 400px; */
+    font-size: 22px;
 }
