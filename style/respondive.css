@@ -88,7 +88,7 @@
 }
 
 
-/* plants section */
+/* plantsh header section */
 
 .plant-header{
     border: 2px solid tomato;
@@ -126,3 +126,35 @@
      align-items: center ; */
      
 }
+  /* plants card section */
+  .Plants-card-Section{
+    border: 2px solid tomato;
+    max-width: 1140px;
+    height: 1050px;
+    margin-left:150px;
+    margin-top: 50px;
+  }
+  .plants-card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    box-shadow: 4px 4px 10px  whitesmoke;
+ }
+ .card-item{
+    border: 2px solid rgb(139, 89, 53);
+    /* gap: 30px; */
+    margin-top: 30px;
+    /* margin-left: 10px; */
+   text-align: center;
+ }
+ .card-item h3{
+    color: #111111;
+
+ }
+ .card-item button{
+    background-color:  rgb(233, 90, 8);
+    width: 270px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+ }
