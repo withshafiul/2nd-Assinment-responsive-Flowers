@@ -86,3 +86,43 @@
     margin-top: 100px;
 
 }
+
+
+/* plants section */
+
+.plant-header{
+    border: 2px solid tomato;
+    margin-top: 130px;
+    max-width: 1140px;
+    height: auto;
+     margin-left: 150px;
+}
+.plant-header span{
+     color: rgb(233, 90, 8);
+
+}
+.plant-header h1{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    font-weight: 700px;
+    font-size: 50px;
+    gap: 15px;
+
+}
+.plant-header p{
+    border: 2px solid cadetblue;
+    width: 880px;
+    height: 53px;
+     color: #8987A1;
+     font-weight: 400px;
+     font-size: 22px;
+     margin-left: 120px;
+     /* margin-top: 84px; */
+     /* display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center ; */
+     
+}
