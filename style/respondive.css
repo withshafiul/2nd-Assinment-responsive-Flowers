@@ -20,7 +20,7 @@
 
 /* start navber section */
 .navbar{
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +49,7 @@
 }
 /* start banner */
 .banner-container{
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     display: flex;
     justify-content:  center;
     max-width: 1140px;
@@ -91,7 +91,7 @@
 /* plantsh header section */
 
 .plant-header{
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     margin-top: 130px;
     max-width: 1140px;
     height: auto;
@@ -112,13 +112,14 @@
 
 }
 .plant-header p{
-    border: 2px solid cadetblue;
+    /* border: 2px solid cadetblue; */
     width: 880px;
     height: 53px;
      color: #8987A1;
      font-weight: 400px;
      font-size: 22px;
      margin-left: 120px;
+     text-align: center;
      /* margin-top: 84px; */
      /* display: flex;
      flex-direction: column;
@@ -128,7 +129,7 @@
 }
   /* plants card section */
   .Plants-card-Section{
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     max-width: 1140px;
     height: 1050px;
     margin-left:150px;
@@ -140,7 +141,7 @@
     box-shadow: 4px 4px 10px  whitesmoke;
  }
  .card-item{
-    border: 2px solid rgb(139, 89, 53);
+    /* border: 2px solid rgb(139, 89, 53); */
     /* gap: 30px; */
     margin-top: 30px;
     /* margin-left: 10px; */
@@ -163,7 +164,7 @@
     display: flex;
     /* justify-content:center; */
     /* text-align: center; */
-    border: 2px solid tan;
+    /* border: 2px solid tan; */
     width: 1140px;
     height: 600px;
     margin-left: 150px;
@@ -192,9 +193,9 @@
 }
 /* title section here  */
 .title-container{
-    border: 2px solid turquoise;
+    /* border: 2px solid turquoise; */
     width: 1140px;
-    height: 137px;
+    height: auto ;
     margin-left: 150px;
     margin-top: 150px;
     display: flex;
@@ -208,15 +209,103 @@
 
 }
 .title-container h1{
-    border: 2px solid tan;
+    /* border: 2px solid tan; */
     height: 68px;
     /* font-weight: 700px; */
     font-size: 50px;
 }
 .title-container p{
-    border: 2px solid teal;
+    /* border: 2px solid teal; */
     color: #8987A1;
     height: 53px;
     /* font-weight: 400px; */
     font-size: 22px;
+}
+/*join-section star here */
+.join-section{
+    /* border: 2px solid teal; */
+    width: 1440px;
+    height: 533px;
+    /* margin-left: 150px; */
+     margin-top: 150px;
+    background-image: url('../image/news-letter-bg.png');
+    
+}
+.join-section h1{
+    color: #FFFFFF;
+    width: 588px;
+    height: 68px;
+    font-weight: 700;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+     /* margin: 100px; */
+
+}
+
+.form-section{
+    border: 2px solid tomato;
+    display: flex;
+    justify-content: center;
+    width:830px ;
+    height: 50px;
+    /* margin: 100px; */
+    border: none;
+}
+.input-section{
+    width: 644px;
+    height: 50px;
+
+}
+.form-section button{
+    color: rgb(255, 255, 255);
+    background-color:rgb(233, 90, 8) ;
+    border: none;
+    width: 190px;
+    height: 50px;
+    border-radius: 5px;
+    
+}
+/* footer section start here */
+.footer-container{
+    /* border: 2px solid tomato; */
+    width: 1440px;
+    height: 350px;
+    /* margin-left: 150px; */
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    
+}
+.footer-left{
+    /* border: 1px solid salmon; */
+    width: 360px;
+    height: 180px;
+    margin-top: 50px;
+}
+.footer-left p{
+    color: #8987A1;
+    height: 80px;
+
+}
+.footer-muidle ul {
+    /* border: 2px solid salmon; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    list-style: none;
+    color:#8987A1 ;
+    margin-top: 50px;
+    gap: 30px;
+    
+}
+.footer-right {
+    /* border: 2px solid salmon; */
+    margin-top: 50px;
+    width: 216px;
+    height: 36px;
+    /* gap: 100px; */
+    display: flex;
+    justify-content: space-between;
+
 }
