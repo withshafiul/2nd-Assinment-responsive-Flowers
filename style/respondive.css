@@ -175,17 +175,19 @@
     /* gap: 60px; */
 }
 .plant-img-left{
+    /* border: 2px solid salmon; */
     width: 540px;
     height: 600px;
     position: relative;
 }
 .logo-on-plant-img{
-    border: 4px solid rgb(189, 39, 139);
+    /* border: 4px solid rgb(189, 39, 139); */
     position: absolute;
     width: 286px;
     height: 286px;
-    /* top: 120px;
-    margin-right: 507px; */
+    top: -120px;
+    right: -100px;
+    box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25);
 
   
   /* border-radius: 50%; */
